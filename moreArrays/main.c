@@ -13,7 +13,7 @@ int main()
 
     mostrar_maximaEdad(array_sillas,array_edades,T);
 
-    Calcular_minimaEdad(array_sillas,array_edades,T);
+    mostrar_minimaEdad(array_sillas,array_edades,T);
 
     return 0;
 }
