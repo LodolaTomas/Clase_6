@@ -23,7 +23,7 @@ int main()
 
     inicializarArray(arraySillas,T,-1);
     mostrarArray(arraySillas,T);
-
+/*
 ///Hardcodeo el array
 
     cargarArrayHardcode(arraySillas,T);
@@ -52,7 +52,7 @@ else
     printf("ok\n");
 
 }
-
+*/
 ///Cantidad Ocupadas
 
     ocupadas=cantidadOcupadas(arraySillas,T,-1);
@@ -69,11 +69,13 @@ else
     if(indiceDeLaPrimeraLibre(arraySillas,T,-1)==-1)
     {
         printf("NO HAY LUGAR LIBRE\n");
-    }else{
+    }
+    else
+    {
     primerIndice=indiceDeLaPrimeraLibre(arraySillas,T,-1);
-    printf("El primer lugar libre esta en : [%d]\n",primerIndice);
+    printf("El primer lugar libre esta en : [%d][indice]\n",primerIndice);
 
     }
-
+///changer 
     return 0;
 }

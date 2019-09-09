@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1568038192 source:/home/alumno/Escritorio/Clase_6/ArraysCaracteres/funciones.c
+1568038510 source:/home/alumno/Escritorio/Clase_6/ArraysCaracteres/funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
