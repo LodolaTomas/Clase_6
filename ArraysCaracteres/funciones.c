@@ -116,3 +116,63 @@ int ocuparSilla(int arraySilla[],int cantidad, int laSilla,int legajo)
     return retorno;
 
 }
+int cantidadOcupadas(int arraySilla[],int cantidad,int valorInicializado)
+{
+    int i;
+    int contador=0;
+
+    for(i=0; i<cantidad; i++)
+    {
+
+        if(valorInicializado!=arraySilla[i])
+        {
+
+            contador++;
+        }
+    }
+
+
+
+    return contador;
+}
+int cantidadLibres(int arraySilla[],int cantidad,int valorInicializado)
+{
+    int i;
+    int contador=0;
+
+    for(i=0; i<cantidad; i++)
+    {
+
+        if(arraySilla[i]==valorInicializado)
+        {
+
+            contador++;
+        }
+    }
+
+
+
+    return contador;
+}
+
+int indiceDeLaPrimeraLibre(int arraySilla[],int cantidad,int valorInicializado)
+{
+
+    int i;
+
+    int retorno=-1;
+
+    for(i=0; i<cantidad; i++)
+    {
+        if(arraySilla[i]==valorInicializado)
+        {
+            retorno=i;
+            break;
+        }
+
+
+    }
+
+    return retorno;
+
+}

@@ -15,6 +15,9 @@ int main()
     int arraySillas[T];
     int maximo;
     int minimo;
+    int ocupadas;
+    int libres;
+    int primerIndice;
 
 ///inicializarlos con -1 duh!
 
@@ -50,9 +53,27 @@ else
 
 }
 
+///Cantidad Ocupadas
+
+    ocupadas=cantidadOcupadas(arraySillas,T,-1);
+    printf("La cantidad de lugares ocupados es: %d\n",ocupadas);
 
 
+///Cantidad Libres
 
+    libres=cantidadLibres(arraySillas,T,-1);
+    printf("la cantiada de lugares libres es: %d\n",libres);
+
+///Indice de la Primera Libre, SI HÁY
+
+    if(indiceDeLaPrimeraLibre(arraySillas,T,-1)==-1)
+    {
+        printf("NO HAY LUGAR LIBRE\n");
+    }else{
+    primerIndice=indiceDeLaPrimeraLibre(arraySillas,T,-1);
+    printf("El primer lugar libre esta en : [%d]\n",primerIndice);
+
+    }
 
     return 0;
 }
