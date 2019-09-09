@@ -1,10 +1,10 @@
 #include "funciones.h"
 
 
-void cargarArrayHardcode(int arraySillas[],int Cantidad)
+void cargarArrayHardcode(int arraySillas[],int cantidad)
 {
 
-    arraySillas[Cantidad]={55,11,22,33,44};
+    arraySillas[cantidad]={55,11,22,33,44};
 
 }
 int dameElMaximo(int arraysSillas[],int Cantidad)

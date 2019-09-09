@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
-#define C 6
+#define T 6
 
 /**
     system("clear");
@@ -12,11 +12,11 @@
 
 int main()
 {
-    int arraySillas[C];
+    int arraySillas[T];
     int maximo;
     int minimo;
 
-    void cargarArrayHardcode(arraySillas,C);
+    void cargarArrayHardcode(arraySillas,T);
 
 
 
