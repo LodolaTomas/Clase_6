@@ -11,5 +11,9 @@ int main()
     cargarArrayHardcode(array_edades,array_sillas,T);
     mostarDatos(array_sillas,array_edades,T);
 
+    mostrar_maximaEdad(array_sillas,array_edades,T);
+
+    Calcular_minimaEdad(array_sillas,array_edades,T);
+
     return 0;
 }

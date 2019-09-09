@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1568042336 source:/home/alumno/Escritorio/Clase_6/moreArrays/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1568042336 /home/alumno/Escritorio/Clase_6/moreArrays/funciones.h
+
+1568041695 source:/home/alumno/Escritorio/Clase_6/moreArrays/funciones.c
+	"funciones.h"
+
