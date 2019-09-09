@@ -76,6 +76,8 @@ else
     printf("El primer lugar libre esta en : [%d][indice]\n",primerIndice);
 
     }
-///changer 
+
+
+
     return 0;
 }
